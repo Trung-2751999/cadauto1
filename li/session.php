@@ -1,0 +1,78 @@
+<?php
+/**
+*Session Class
+**/
+class Session{
+ public static function init(){
+  if (version_compare(phpversion(), '5.4.0', '<')) {
+        if (session_id() == '') {
+            session_start();
+        }
+    } else {
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+    }
+ }
+
+ public static function set($key, $val){
+    $_SESSION[$key] = $val;
+ }
+
+ public static function get($key){
+    if (isset($_SESSION[$key])) {
+     return $_SESSION[$key];
+    } else {
+     return false;
+    }
+ }
+
+ public static function checkSession(){
+    self::init();
+    if (self::get("adminlogin")== false) {
+     header("Location:login.php");
+    }
+ }
+ public static function checkSession_congsu(){
+    self::init();
+    if (self::get("congsulogin")== false) {
+     header("Location:login.php");
+    }
+ }
+ public static function checkLogin_customer(){
+    self::init();
+    if (self::get("cus_login")== true) {
+     header("Location:index.php");
+    }
+ }
+ public static function checkSession_customer(){
+    self::init();
+    if (self::get("cus_login")== false) {
+     header("Location:index.php");
+    }
+ }
+
+ public static function checkLogin(){
+    self::init();
+    if (self::get("adminlogin")== true) {
+     header("Location:trangchu.php");
+    }
+ }
+ public static function checkLogin_congsu(){
+    self::init();
+    if (self::get("congsulogin")== true) {
+     header("Location:trangchucongsu.php");
+    }
+ }
+
+ public static function destroy(){
+  session_destroy();
+  header("Location:login.php");
+ }
+public static function delete(){
+  session_destroy();
+  header("Location:index.php");
+ }
+}
+?>
+

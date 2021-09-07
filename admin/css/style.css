@@ -1,0 +1,258 @@
+body{
+	font-family: arial;
+}
+.scale:hover{
+	transform: scale(2.5);
+}
+.delete-image{
+	width: 5vw;
+	height:5vh;
+	background-color:green;
+	position:absolute;
+	left:49.5%;
+	top:70%;
+	font-weight: bold;
+	border-right:2px solid grey;
+	border-top:2px solid grey;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+}
+.delete-image:active{
+	border-right:2px solid black;
+	border-top:2px solid black;
+	border-left:2px solid grey;
+	border-bottom:2px solid grey;
+}
+img{
+	border: 1px solid black;
+	width: 6vw;
+	height: 6vw;
+	float: left;
+	margin-right: 0.5vw;
+	margin-bottom: 0.5vw;
+}
+img:hover{
+	border: 1px solid red;
+	cursor: pointer;
+}
+.xdelete:hover{
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+.logo-bar{
+	width: 100%;
+	height: 3.6vw;
+	background-color: #5B5B5B; 
+}
+.logo{
+	margin-left: 3.8vw;
+	width: 11.5vw;
+	height: 3.6vw;
+	background-color: #C4C4C4;
+}
+.inf-user{
+	margin-top: 0.9vw;
+	margin-left: 2.1vw;
+}
+.user-name{
+	border: 1px solid black;
+	width: 14.7vw;
+	height: 14.7vw;
+	border: 0.2vw solid #00E0EE;
+	border-radius: 2vw;
+	float: left; 
+}
+.avartar{
+	background-color: grey;
+	width: 7.1vw;
+	height: 7.1vw;
+	border-radius: 50%;
+	margin:  8.7% 25.7%;
+}
+.name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3vw;
+}
+.log-out{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0.3vw;
+}
+.money{
+	float: left;
+	width: 35.7vw;
+	height: 14.72vw;
+	background-color: orange;
+	margin-right: 5.6vw;
+}
+.money-number, .cus-number{
+	text-align: center;
+	font-size: 2.2vw;
+	margin-top: 2.7%;
+	font-weight: bold;
+}
+
+.cus{
+	float: right;
+	width: 35.7vw;
+	height: 14.72vw;
+	background-color: orange;
+}
+.des-img-money, .des-img-cus{
+	width: 100%;
+	height: 69.15%;
+	background-color: black;
+}
+.money-and-cus{
+	float: left;
+	width: 77.1vw;
+	height: 14.7vw;
+	margin-left: 1.4vw;
+}
+.content{
+	margin-top:17.08vw;
+	margin-left: 2.1vw;
+}
+.menu{
+	width: 14.86vw;
+	height: 24.65vw;
+	float: left;
+}
+.quan-ly-san-pham, .tai-khoan-nguoi-dung, .lich-su-giao-dich, .lich-su-nap-the, .tai-khoan-cong-su, .doi-thong-tin-admin{
+	padding-top: 7.9%;
+	padding-bottom: 7.9%;
+	background-color: #C4C4C4;
+	margin-bottom: 5.1%;
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+.quan-ly-san-pham:hover, .tai-khoan-nguoi-dung:hover, .lich-su-giao-dich:hover, .lich-su-nap-the:hover, .tai-khoan-cong-su:hover, .doi-thong-tin-admin:hover{
+	background-color: #3C3434;
+	color: #FF0606;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.container-menu, .table{
+	float: left;
+	margin-left: 0.8vw;
+	width: 77.1vw;
+}
+
+th{
+	font-size: 1vw;
+	background-color: #59EAF3;
+	text-align: center;
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+}
+#example tr:nth-child(2n+1), .table tr:nth-child(2n+1){
+	background:#59F35F;
+	font-size: 1vw;
+	text-align: center;
+}
+#example tr:nth-child(2n), .table tr:nth-child(2n){
+	background:#8DF491;
+	font-size: 1vw;
+	text-align: center;
+}
+td{
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+	font-weight: bold;
+}
+.container-o-menu-phu{
+	position: absolute;
+	margin-left: 15vw;
+	margin-top:0vw;
+	display: none;
+}
+.o-menu-phu{
+	background-color: #C4C4C4;
+	text-align: center;
+	width: 14.86vw;
+	padding-top: 7.9%;
+	padding-bottom: 7.9%;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+.o-menu-phu:hover{
+	background-color: #3C3434;
+	color: #FF0606;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.tai-khoan-cong-su-menu-phu{
+	position: absolute;
+	margin-left: 15vw;
+	margin-top:18.85vw;
+	display: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: left;
+	width: 73.68vw;
+	border: 0.2vw solid rgba(251, 1, 1, 0.5);
+	margin-top: 0.9vw;
+	margin-left: 3.82vw;
+	border-radius: 2.08vw;
+}
+.add-thong-tin{
+	margin-left: 3.1vw;
+	border-spacing: 0.7vw;
+}
+td input{
+	width: 50.9vw;
+	height: 2.4vw;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+td label{
+	font-size: 1.1vw;
+	font-weight: 150%;
+}
+td input:focus{
+	outline-color: rgba(196, 196, 196, 0.5); ;
+	background-color: rgba(196, 196, 196, 0.5);
+}
+input[type="submit"]{
+	width: 8.74vw;
+	height: 2.36vw;
+	background-color: #5DC24D;
+	font-weight: bold;
+	font-size: 1.1vw;
+	transition: all 0.5s;
+	margin-bottom: 7.6vw;
+}
+input[type="submit"]:hover{
+	background-color: #24FF00;
+	cursor: pointer;
+}
+select{
+	width: 14.58vw;
+	height: 2.4vw;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+input[type="number"]{
+	width: 14.58vw;
+	height: 2.4vw;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+
+
+

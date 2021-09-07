@@ -1,0 +1,501 @@
+body{
+	font-family: arial;
+	margin: 0;
+}
+
+.logo-bar{
+	width: 100vw;
+	height: 5.2vw;
+	background-color: #178CF8;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+.logo{
+	float: left;
+	height: 5.2vw;
+	width: 10vw;
+	margin-left: 3.47vw;
+}
+.logo img{
+	float: left;
+	height: 5.2vw;
+	width: 14vw;
+	margin-top: -0.3vw;
+	margin-left: -2vw;
+}
+.search{
+	margin-left: 2.8vw;
+	background-color: white;
+	width: 20.13vw;
+	height: 2vw;
+	float: left;
+	margin-top: 1.59vw;
+}
+.search-button{
+	float: right;
+	width: 3.47vw;
+	background-color: #519C59;
+	height: 2vw;
+}
+.do-an{
+	float: left;
+	background-color: #178CF8;
+	margin-left: 0.3vw;
+	width: 13.8vw;
+	height: 3.2vw;
+	text-align: center;
+	padding-top: 2vw;
+	padding-bottom: 3.2vw;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 1.11vw;
+}
+.do-an:hover{
+	background-color: #1A203F;
+}
+.dang-nhap{
+	margin-left: 5.4vw;
+	float: left;
+	margin-top: 1.8vw;
+	font-weight: bold;
+	font-size: 1.11vw;
+	margin-right: 0.3vw;
+	color: black;
+}
+.dang-nhap-1{
+	margin-left: 5.4vw;
+	float: left;
+	margin-top: 1.8vw;
+	font-weight: bold;
+	font-size: 1.11vw;
+	margin-right: 0.3vw;
+	color: black;
+}
+.dang-nhap-1 a{
+	text-decoration: none;
+	color:#555555;
+}
+.dang-nhap-1 a:hover {
+	color:white;
+}
+.dang-nhap:hover{
+	color: white;
+	cursor: pointer;
+}
+.dang-ki {
+	margin-top: 1.8vw;
+	font-weight: bold;
+	font-size: 1.11vw;
+}
+.dang-ki a{
+	color: black;
+	text-decoration: none;
+}
+.dang-ki a:hover{
+	color: white;
+}
+.header{
+	margin-left:3.47vw;
+	margin-top: 6vw;
+	margin-left:3.47vw;
+	width: 93.47vw;
+}
+.slider{
+	width: 56.18vw;
+	height: 29.37vw;
+	background-color: #C4C4C4;
+	float: left;
+	position: relative;
+}
+
+.slider-index{
+	width: 56.18vw;
+	height: 29.37vw;
+	position: absolute;
+}
+
+.image-right{
+	float: left;
+	margin-left: 2.84vw;
+	width: 34.44vw;
+	height: 29.37vw;
+}
+.image-right-1{
+	width: 34.44vw;
+	height: 13.81vw;
+	background-color:#DF9B9B;
+}
+.image-right-2{
+	width: 34.44vw;
+	height: 13.81vw;
+	margin-top: 1.73vw;
+	background-color:#DF9B9B;
+}
+.line{
+	position: absolute;
+	margin-left: 3.47vw;
+	height: 0.3vw;
+	width: 93.47vw;
+	background-color: #EBB6E6;
+	margin-top: 31.5vw;
+}
+.con-product{
+	z-index: 0;
+	position: absolute;
+	width: 100vw;
+	margin-top: 31.25vw;
+	margin-bottom: 31.25vw;
+}
+.product{
+	position: relative;
+	width: 20.83vw;
+	height: 28.05vw;
+	margin-left: 3.47vw;
+	float: left;
+	margin-top: 3.47vw;
+}
+.name-product{
+	width: 100%;
+	height: 5.06vw;
+	background-color: #ACF891;
+}
+.des{
+	width: 100%;
+	height: 5.06vw;
+	background-color: #F89191;
+	margin-bottom: 0;
+}
+.dowload-number{
+	position: absolute;
+	margin-left: 1.04vw;
+	margin-top: 0.7vw;
+	width: 8.4vw;
+	height: 1.59vw;
+	font-size: 1.1vw;
+}
+.update-time{
+	position: absolute;
+	margin-left: 1.04vw;
+	margin-top: 2.56vw;
+	width: 8.4vw;
+	height: 1.59vw;
+	font-size: 1.1vw;
+}
+.dowload-button{
+	float: right;
+	padding: 0.35vw 1.04vw;
+	background-color: #F1EB5D;
+	font-size: 1vw;
+	font-weight: bold;
+	border-radius: 0.55vw;
+	margin-right: 2.2vw;
+	margin-top: 1.5vw;
+	color: #E9852A;
+}
+.dowload-button a{
+	color: #E9852A;
+	text-decoration: none;
+}
+.footer{
+	position: absolute;
+    width: 100%;
+    margin-top: 3.47vw;
+    line-height: 3vw;
+    font-size:1.1vw;
+}
+.dia-chi-left{
+	float: left;
+	margin-left: 3.47vw;
+}
+.copy-right{
+	float: right;
+	margin-right: 3.47vw;
+}
+.background-dangnhap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #c4c4c4;
+}
+.form{
+	width: 41.18vw;
+	height: 32.63vw;
+	margin-left: 30.2vw;
+	margin-top: 6.59vw;
+	border: 0.069vw solid #42C6E3;
+	border-radius: 2.78vw;
+	background-color: white;
+}
+.tieu-de{
+	text-align: center;
+	padding: 1.67vw 0 1.67vw;
+	background-color: rgba(4, 224, 0, 0.6);
+	border-radius: 2.78vw 2.78vw 0 0;
+	font-size: 2.08vw;
+	font-weight: bold;
+}
+.close-dang-nhap{
+	float: right;
+	margin-right: 5%;
+	margin-top: -6.25%;
+	color: cyan;
+}
+.close-dang-nhap:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.content-dang-nhap{
+	margin: 3.33vw 5vw;
+}
+.ten-dang-nhap input{
+	width:29.66vw;
+	height: 4.16vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	outline: none;
+	padding-left: 1.52vw;
+	font-size: 2.08vw;
+}
+.mat-khau input{
+	margin-top: 3.33vw; 
+	width:29.66vw;
+	height: 4.16vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	outline: none;
+	padding-left: 1.52vw;
+	font-size: 2.08vw;
+}
+input:focus{
+	background-color: #c4c4c4;
+}
+.submit-dangnhap input{
+	float: left;
+	margin-top: 3.33vw;
+	width: 12.43vw;
+	height: 3.75vw;
+	font-size: 1.11vw;
+	outline: none;
+	background-color: #30D2E8;
+	border: none;
+	font-weight: bold;
+}
+.dang-nhap-right{
+	float: right;
+	text-align: center;
+	margin-left: 2.2vw;
+	font-size: 1.1vw;
+	line-height: 2.5vw;
+	margin-top:-4vw;
+}
+.form-dang-ki{
+	background-color: white;
+	width: 31.25vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	margin-left: 38.19vw;
+	margin-top: 6.9vw;
+	background-color: rgba(196, 196, 196, .5);
+}
+.tieu-de-dang-ki{
+	height: 5.48vw;
+	width: 100%;
+	background-color: #4EDCEF;
+	border-radius: 2.78vw 2.78vw 0 0;
+}
+.input-dangki input{
+	width: 24.31vw;
+	height: 3.47vw;
+	margin:1vw 3.5vw;
+	outline: none;
+	border-radius: 2.78vw;
+	border:0.069vw solid #42C6E3;
+	padding-left: 1.52vw;
+	font-size: 1.11vw;
+}
+.dangki-submit input{
+	margin:1vw 8.89vw 2.78vw 8.89vw;
+	width: 13.61vw;
+	height: 3.47vw;
+	background-color: #519C59;
+	color: white;
+	outline: none;
+	border: none;
+	font-size: 1.5vw;
+}
+.ten-ban-ve{
+	width: 63.19vw;
+	height: 4vw;
+	margin-left: 3.47vw;
+	margin-top: 7vw;
+	font-size: 2.08vw;
+	color: black;
+	background-color: white;
+}
+.mo-ta-san-pham{
+	float: left;
+	width: 29.93vw;
+	height:36.66vw;
+	border-radius: 1.39vw;
+	border: 0.06vw solid #F89191;
+	margin-right:-3vw;
+}
+.ten-mo-ta{
+	text-align: center;
+	padding-top: 1.25vw;
+	padding-bottom: 1.25vw;
+	background-color: #F85050;
+	border-radius: 1.39vw 1.39vw 0 0;
+	font-size: 2.4vw;
+}
+.noi-dung-mo-ta{
+	width: 100%;
+	height: 68%;
+}
+.dowload-product{
+	text-align: center;
+	background-color: #F85050;
+	border-radius: 0 0 1.39vw 1.39vw;
+	padding-top: 1.25vw;
+	padding-bottom: 1.25vw;
+	font-size: 2.4vw;
+}
+
+.dowload-product:hover{
+	background-color:yellow;
+	cursor: pointer;
+}
+.image-des{
+	background-color: red;
+	height: 65%;
+	width: 100%;
+}
+.image-product{
+	float:left;
+	margin-left: 3.47vw;
+	width: 63.7vw;
+	overflow:hidden;
+	margin-right: 1.17vw;
+	position:relative;
+}
+.con-slider-product{
+	width: 1000vw;
+	transition:all 0.5s;
+}
+.slider-product{
+	width:63.7vw;
+	height: 25vw;
+	background-color: cyan;
+	float:left;
+}
+.slider-product img{
+	width:63.7vw;
+	height: 25vw;
+}
+.next,.prev{
+	float: left;
+	color:black;
+	position: absolute;
+	top:30%;
+	font-size: 3vw;
+	opacity: .4;
+	cursor:pointer;
+}
+.next:hover, .prev:hover{
+	color:white;
+	opacity: 1;
+}
+.prev{
+	left:3.5%;
+}
+.next{
+	left:92.5%;
+}
+
+.con-image-slider{
+	width: 100%;
+}
+
+.image-slider{
+	width:1000vw;
+	margin-top: 0.69vw;
+	overflow:hidden;
+	position:relative;
+}
+.image{
+	float: left;
+	margin-right: 0.6vw;
+	background-color: black;
+	width: 20.83vw;
+	height: 10.97vw;
+}
+.image img{
+	width: 20.83vw;
+}
+.menu-1{
+	padding:0.5vw;
+	background-color:rgba(82, 139, 139);
+	font-weight: bold;
+}
+.menu-phu{
+	position: absolute;
+	right: 6vw;
+	top:4vw;
+	font-size: 1.1vw;
+	color:black;
+}
+.info a:hover, .deal a:hover, .card a:hover{
+	color: white;
+	cursor: pointer;
+	text-decoration:none;
+}
+.info a, .deal a, .card a{
+	color: black;
+	cursor: pointer;
+}
+.out a:hover{
+	color: red;
+	cursor: pointer;
+	text-decoration: none;
+}
+.out a{
+	color:black;
+}
+.arrow{
+	position: absolute;
+	right: 3.5vw;
+	top:-0.69vw;
+	width:0;
+	height:0;
+	border-left: 0.69vw solid transparent;
+  	border-right: 0.69vw solid transparent;
+  	border-bottom: 0.69vw solid rgba(82, 139, 139);
+}
+.doi-mat-khau{
+	float:right;
+	margin-top: -5.5vw;
+	margin-right:4.3vw;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+.so-du{
+	text-align: center;
+	margin-left: 10vw;
+	margin-top:2vw;
+	font-size: 1.76vw;
+}
+.doi-mat-khau-cap-2{
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	margin-top: -2vw;
+	margin-bottom: 2vw;
+}
+
+
+

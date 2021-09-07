@@ -1,0 +1,71 @@
+body{
+	background: fixed;
+}
+.container{
+	width: 87.56%;
+	position: absolute;
+	top:18.1vh;
+	left:6.1vw ;
+}
+.container h1{
+	font-size: 2.1vw;
+	background-color: rgba(4,224,0,0.6);
+	font-family: arial;
+	font-weight: normal;
+	color: black;
+	padding: 4.1% 20% 4.1% 20%;
+	margin-top: -1px;
+	text-align: center;
+	border-radius: 2.7vw 2.7vw 0 0 ;
+}
+.congsu_login{
+	float: right;
+	border: 1px solid black;
+	width: 47%;
+	height:13.1% ;
+	border-radius: 2.7vw;
+	border:2px solid #42C6E3;
+}
+.admin_login{
+	float: left;
+	border: 1px solid black;
+	width: 47%;
+	border-radius: 2.7vw;
+	border:2px solid #42C6E3;
+	height: 13.1%;
+
+}
+input{
+	font-size: 1.5vw;
+	margin: 2vh 4vw 2vh 4vw;
+	width: 31vw;
+	height: 5.8vh;
+	border-radius: 2.7vw;
+	border:2px solid #42C6E3;
+	padding-left: 3.7%;
+}
+input:focus{
+	outline: none;
+}
+.submit{
+	width: 30.2%;
+	height: 9.1%;
+	border-radius: 0;
+	border: none;
+	background-color:#42C6E3; 
+	text-align: center;
+	font-size: 1.5vw;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-top: 3.1%;
+	padding-bottom: 3.1%;
+}
+.submit:focus{
+	border-radius: 0;
+}
+.login{
+	margin-bottom: 20px;
+}
+.submit:hover{
+	cursor: pointer;
+}
